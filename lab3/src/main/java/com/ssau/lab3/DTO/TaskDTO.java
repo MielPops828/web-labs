@@ -1,0 +1,17 @@
+package com.ssau.lab3.DTO;
+
+import java.time.LocalDate;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class TaskDTO {
+    private Long id;
+    private String name;
+    private String description;
+    private LocalDate plannedEndDate;
+    private boolean isCompleted;
+    private Long projectId;
+}
