@@ -1,0 +1,18 @@
+form{
+    display:contents;
+    margin-top: 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+button{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    width: 300px;
+    height: 30px;
+}
