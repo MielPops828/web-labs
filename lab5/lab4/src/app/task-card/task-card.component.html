@@ -1,7 +1,0 @@
-<div class = "card">
-  <h4>{{ task.name }}</h4>
-  <p>{{ task.description }}</p>
-  <p>Планируемая дата завершения: {{ task.plannedEndDate | date }}</p>
-  <span>Задача: {{ task.completed ? 'завершена' : 'рассматривается' }}</span>
-  <button (click)="delete.emit(task.id)">Удалить</button>
-</div>

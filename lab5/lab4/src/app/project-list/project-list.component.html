@@ -1,7 +1,0 @@
-<input type="search" (keyup.enter)="filterProjects($event)" placeholder="Найти проект">
-<button [routerLink]="['/projects/new']">Создать проект</button>
-<div class = "list">
-    <app-project-card *ngFor="let project of filteredProjects" [project]="project"
-        [openTasksCount]="projectTaskCounts[project.id]">
-    </app-project-card>
-</div>
