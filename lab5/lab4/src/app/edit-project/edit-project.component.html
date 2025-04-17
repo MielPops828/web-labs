@@ -1,0 +1,11 @@
+<form [formGroup]="projectForm" (ngSubmit)="saveProject()">
+  <h5>Название проекта</h5>
+  <input type="text" formControlName="name">
+  <h5>Описание</h5>
+  <textarea formControlName="description"></textarea>
+  <h5>Дата начала</h5>
+  <input type="date" formControlName="startDate">
+  <h5>Дата завершения</h5>
+  <input type="date" formControlName="endDate">
+  <button type="submit">Сохранить</button>
+</form>
