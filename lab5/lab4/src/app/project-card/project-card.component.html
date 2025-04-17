@@ -1,0 +1,15 @@
+<div class="card">
+  <div class = "button-left">
+    <div class="info">
+      <h3>{{ project.name }}</h3>
+      <p>{{ project.description }}</p>
+      <p>Дата начала: {{ project.startDate | date }}</p>
+      <p>Дата завершения: {{ project.endDate | date }}</p>
+      <p>Незавершенных задач: {{ openTasksCount }}</p>
+    </div>
+    <div class = "edit">
+      <button [routerLink]="['/projects', project.id]" class = "img"></button>
+    </div>
+  </div>
+  <button [routerLink]="['/tasks', project.id]">Посмотреть задачи</button>
+</div>
