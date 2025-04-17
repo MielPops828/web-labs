@@ -1,0 +1,16 @@
+com\ssau\lab2\Lab2Application.class
+com\ssau\lab2\entity\Task.class
+com\ssau\lab2\repository\TaskRepository.class
+com\ssau\lab2\DTO\ProjectDTO.class
+com\ssau\lab2\entity\Project.class
+com\ssau\lab2\controller\ProjectController.class
+com\ssau\lab2\TaskNotFoundException.class
+com\ssau\lab2\GlobalException.class
+com\ssau\lab2\controller\TaskController.class
+com\ssau\lab2\DTO\TaskDTO.class
+com\ssau\lab2\repository\ProjectRepository.class
+com\ssau\lab2\service\ProjectService.class
+com\ssau\lab2\CorsConfig.class
+com\ssau\lab2\service\TaskService.class
+com\ssau\lab2\controller\WebController.class
+com\ssau\lab2\CorsConfig$1.class
